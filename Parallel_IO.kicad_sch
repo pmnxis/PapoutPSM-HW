@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Paper")
+    (date "2021-07-30")
+    (rev "0.1")
+    (company "Korean Paper Dispenser Parallel to Serial Module")
+    (comment 1 "Features : 24V -> 12V, RS232, STM32G030")
+    (comment 2 "Proof of concept hardware for Rust-Embedded.")
+    (comment 3 "CERN-OHL-S-2.0")
+    (comment 4 "Jinwoo Park pmnxis@gmail.com")
+  )
+
   (lib_symbols
     (symbol "4xxx:4049" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
@@ -1122,7 +1133,7 @@
     (uuid 783335c4-a540-42be-8960-9808dea9f461)
   )
 
-  (text "Vend Side Pull Up Input" (at 19.05 20.32 0)
+  (text "Parallel Side Output Hook" (at 19.05 20.32 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 12ce7717-3dd1-4345-8200-1cbea1bb60bd)
   )
@@ -1138,7 +1149,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 06cc5699-02c0-4ba8-989b-4939b1860e63)
   )
-  (text "Vend Side Pull Up Input" (at 77.47 20.32 0)
+  (text "Parallel Side Input Hook" (at 77.47 20.32 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 58a736ea-fdce-4363-b518-98504e858aad)
   )

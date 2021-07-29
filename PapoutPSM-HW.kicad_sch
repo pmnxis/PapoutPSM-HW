@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Main Block")
+    (date "2021-07-30")
+    (rev "0.1")
+    (company "Korean Paper Dispenser Parallel to Serial Module")
+    (comment 1 "Features : 24V -> 12V, RS232, STM32G030")
+    (comment 2 "Proof of concept hardware for Rust-Embedded.")
+    (comment 3 "CERN-OHL-S-2.0")
+    (comment 4 "Jinwoo Park pmnxis@gmail.com")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
