@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name "Video_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Video_Extended.lib")(options "")(descr ""))
   (lib (name "Battery_Management_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Battery_Management_Extended.lib")(options "")(descr ""))
   (lib (name "Connector_Extended_141V")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Connector_Extended_141V.lib")(options "")(descr ""))
   (lib (name "Connector_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Connector_Extended.lib")(options "")(descr ""))
@@ -8,6 +7,7 @@
   (lib (name "Drive_Motor_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Drive_Motor_Extended.lib")(options "")(descr ""))
   (lib (name "Driver_LED_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Driver_LED_Extended.lib")(options "")(descr ""))
   (lib (name "Filter_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Filter_Extended.lib")(options "")(descr ""))
+  (lib (name "Interface_Ethernet_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Interface_Ethernet_Extended.lib")(options "")(descr ""))
   (lib (name "Interface_Expansion_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Interface_Expansion_Extended.lib")(options "")(descr ""))
   (lib (name "Interface_UART_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Interface_UART_Extended.lib")(options "")(descr ""))
   (lib (name "Interface_USB_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Interface_USB_Extended.lib")(options "")(descr ""))
@@ -22,5 +22,7 @@
   (lib (name "Regulator_Switching_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Regulator_Switching_Extended.lib")(options "")(descr ""))
   (lib (name "RF_Module_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/RF_Module_Extended.lib")(options "")(descr ""))
   (lib (name "Transistor_FET_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Transistor_FET_Extended.lib")(options "")(descr ""))
+  (lib (name "Video_Extended")(type "Legacy")(uri "${LAMBDA_LIB_DIR}/SchLib/Video_Extended.lib")(options "")(descr ""))
   (lib (name "STM32G0")(type "KiCad")(uri "${KIPRJMOD}/Library/STM32G0.kicad_sym")(options "")(descr ""))
+  (lib (name "MSP430FR2433")(type "KiCad")(uri "${KIPRJMOD}/Library/MSP430FR2433.kicad_sym")(options "")(descr ""))
 )
