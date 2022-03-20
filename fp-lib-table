@@ -21,4 +21,5 @@
   (lib (name "Button_Switch_THT_Extended")(type "KiCad")(uri "${LAMBDA_LIB_DIR}/PcbLib/Button_Switch_THT_Extended.pretty")(options "")(descr ""))
   (lib (name "Button_Switch_SMD_Extended")(type "KiCad")(uri "${LAMBDA_LIB_DIR}/PcbLib/Button_Switch_SMD_Extended.pretty")(options "")(descr ""))
   (lib (name "Molex-53015")(type "KiCad")(uri "${KIPRJMOD}/Library/Molex-53015.pretty")(options "")(descr ""))
+  (lib (name "TDK-SPM10040")(type "KiCad")(uri "${KIPRJMOD}/Library/TDK-SPM10040.pretty")(options "")(descr ""))
 )
